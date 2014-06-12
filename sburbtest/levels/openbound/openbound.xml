@@ -2,7 +2,7 @@
 
 <dependencies>
 	<dependency>standardTemplates.xml</dependency>
-	<dependency>lab2.xml</dependency>
+	<dependency>lab1.xml</dependency>
 </dependencies>
 
 <action command='setGameState'>

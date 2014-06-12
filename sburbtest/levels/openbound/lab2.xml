@@ -817,11 +817,11 @@
             </sprite>
 
 
-  
+  <!--
 
       <character name='karkat' x='1000' y='3000' sx='-37' sy='-65' sWidth='75' sHeight='75' width='36' height='16' sheet='karkatSheet' state='walkFront' facing='Front'>
       </character>
-
+-->
       <character name='davelab2' x='425' y='2260' sx='-37' sy='-65' sWidth='75' sHeight='75' width='36' height='16' sheet='daveSheet' state='walkFront' facing='Front'>
       </character>
       <character name='rose' x='422' y='327' sx='-37' sy='-65' sWidth='75' sHeight='75' width='36' height='16' sheet='roseSheet' state='walkFront' facing='Front'>

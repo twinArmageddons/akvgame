@@ -187,7 +187,7 @@
                 <action name='Teleport.' command='changeRoom'><args>labCG,2615,2015</args>
                 </action>
             </sprite>
-            <sprite class='bed' name='bed' x='1720' y='1138' width='144' height='180' collidable='true'>
+            <sprite class='bed' name='bed' x='1720' y='1138' width='144' height='180' collidable='true' depthing='2'>
                 <animation sheet='bed' x='-80' y='-100' />
                 <action command='talk' name='Examine Recuperacoon.'>
                     <args>

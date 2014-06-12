@@ -309,9 +309,7 @@
                         <args>dave,Talk to Dave.</args>
                        <action command='moveSprite'> 
                             <args>eridan,980,790</args>
-                            <action command='removeAction'>
-                                <args>terezilowaa,Talk to Terezi.</args>
-                                </action>
+                            
      
                     </action>
                 </action>
@@ -365,7 +363,8 @@
                         <args>eridan,char</args>
                         <action command='removeAction'>
                             <args>eridan,Talk to Eridan.</args>
-                            
+                            <action command='removeAction'>
+                                <args>terezilowaa,Talk to Terezi.</args>
                                 <action command='addAction'>
                                     <args>terezilowaa,
                                         <action command='talk' name='Talk to Terezi.'>
@@ -459,7 +458,7 @@
         </action>
     </args>
 </action>
-                        </action>
+                        </action></action>
                     </action>
                 </action>
 
