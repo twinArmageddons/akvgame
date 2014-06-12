@@ -176,7 +176,7 @@
                                     @dave_talk DAVE: then check this out follow me 
                                 </args>
                                 <action command='moveSprite'>
-                                    <args>dave,1320,430</args>
+                                    <args>davelab2,1320,430</args>
                                 </action>
                             </action>
                         </trigger>
@@ -807,12 +807,12 @@
             </sprite>
 
 
-  
-<!--
-      <character name='karkat' x='1000' y='3000' sx='-37' sy='-65' sWidth='75' sHeight='75' width='36' height='16' sheet='karkatSheet' state='walkFront' facing='Front'>
-      </character>-->
+  <!--
 
-      <character name='dave' x='425' y='2260' sx='-37' sy='-65' sWidth='75' sHeight='75' width='36' height='16' sheet='daveSheet' state='walkFront' facing='Front'>
+      <character name='karkat' x='1000' y='3000' sx='-37' sy='-65' sWidth='75' sHeight='75' width='36' height='16' sheet='karkatSheet' state='walkFront' facing='Front'>
+      </character>
+-->
+      <character name='davelab2' x='425' y='2260' sx='-37' sy='-65' sWidth='75' sHeight='75' width='36' height='16' sheet='daveSheet' state='walkFront' facing='Front'>
       </character>
       <character name='rose' x='422' y='327' sx='-37' sy='-65' sWidth='75' sHeight='75' width='36' height='16' sheet='roseSheet' state='walkFront' facing='Front'>
         <action command='talk' name='Talk to Rose.'>
@@ -924,9 +924,37 @@
                                                                                                                         @rose_happytalk ROSE: Excellent. Have a seat on that couch back there and we can begin.
                                                                                                                         @! Actually sit through psychotherapy session?
                                                                                                                     </args>
+
                                                                                                                     <action command='presentActions'>
                                                                                                                         <args>
-                                                                                                                            <action command='talk' name='yes'>
+                                                                                                                            
+                                                                                                                            <action command='fadeOut' name='yes'>
+                                                                                                                                <action command='moveSprite'>
+                                                                                                                                    <args>char,500,230</args>
+                                                                                                                                    <action command='fadeOut'>
+
+                                                                                                                                    <action command='moveSprite'>
+                                                                                                                                            <args>kanaya,640,375</args>
+                                                                                                                                            <action command='fadeOut'>
+                                                                                                                                            <action command='removeSprite'>
+                                                                                                                                                <args>block1,lab1</args>
+                                                                                                                                                <action command='fadeOut'>
+                                                                                                                                                <action command='removeSprite'>
+                                                                                                                                                    <args>block2,lab1</args>
+                                                                                                                                                    <action command='fadeOut'>
+                                                                                                                                                    <action command='setGameState'>
+                                                                                                                                                        <args>sleep,true</args>
+                                                                                                                                                        <action command='fadeOut'>
+                                                                                                                                                            <action command='walk'>
+                                                                                                                                                                <args>char,Down</args>
+                                                                                                                                                                <action command='fadeOut'>
+                                                                                                                                                        
+                                                                                                                                                            <action command='removeSprite'>
+                                                                                                                                                                <args>rose,lab2</args>
+                                                                                                                                                                <action command='fadeOut'>
+                                                                                                                                    
+
+                                                                                                                                <action command='talk'>
                                                                                                                                 <args>
                                                                                                                                     @karkat_talk KARKAT: OK. ALL SEATED AND WHATEVER.
                                                                                                                                     @rose_talk ROSE: Comfortable?
@@ -945,11 +973,38 @@
                                                                                                                                     @rose_talk ROSE: I’m aware.
                                                                                                                                     <!-- @! Joking aside, Rose leads Karkat into the deep, intricate, and somewhat suggestive world of psychoanalysis. The journey is difficult and arduous with many an obstacle keeping them from continuing, those obstacles mostly being Karkat's insecurities. Through the many hardships, they bond. Hours go by. -->
                                                                                                                                     @! they fuck, the end. thanks for playing the AKV walkaround. insert coin to continue
+                                                                                                                                    @kanaya_talk KANAYA: I Apologize Am I Intruding On Anything
+                                                                                                                                    ROSE: Not really, I believe we’re just wrapping up.
+                                                                                                                                    KARKAT: (thank god...)
+                                                                                                                                    KANAYA: In That Case There Is Something Dave Wanted You For
+                                                                                                                                    ROSE: Whatever could that be?
+                                                                                                                                    KANAYA: He Asked For You To Look At Something On The Observation Deck He Says He Saw Something Strange
+                                                                                                                                    ROSE: Something strange out here? Impossible.
+                                                                                                                                    KANAYA: He Seemed Very Distressed I Dont Think This Sarcasm Is Very Appropriate For This Situation
+                                                                                                                                    ROSE: Distressed?
+                                                                                                                                    ROSE: Alright, I’ll go and check out this new and frightening obscurity. Let me know if anything happens.
+                                                                                                                                
                                                                                                                                 </args>
-                                                                                                                                <action command='removeAction'>
-                                                                                                                                    <args>rose,Talk to Rose.</args>
+                                                                                                                                
+                                                                                                                                
+                                                                                                                                        
+                                                                                                                                                    </action>
+                                                                                                                                                </action>
+                                                                                                                                            </action>
+                                                                                                                                                </action>
+                                                                                                                                            </action>
+                                                                                                                                                </action>
+                                                                                                                                            </action>
+                                                                                                                                        </action>
+                                                                                                                                    </action>
                                                                                                                                 </action>
                                                                                                                             </action>
+                                                                                                                                    </action>
+                                                                                                                                </action>
+                                                                                                                            </action>
+                                                                                                                        </action>
+                                                                                                                    </action>
+
                                                                                                                             <action command='talk' name='no'>
                                                                                                                                 <args>
                                                                                                                                     @karkat_talk KARKAT: YEAH, NEVERMIND. STILL TURNING THAT DOWN.
