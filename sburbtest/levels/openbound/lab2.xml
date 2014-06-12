@@ -8,6 +8,7 @@
     <dependency>lab2log.xml</dependency>
     <dependency>kanaya.xml</dependency>
     <dependency>lab1.xml</dependency>
+    <dependency>labCG.xml</dependency>
     
   </dependencies>
 
@@ -397,11 +398,11 @@
                         <args>lab2,405,1547</args>
                     </action>
                 </sprite>
-<!--
+
                 <sprite class='teleporter' name='teleporterPadCG' x='1280' y='2908' width='110' height='60'>
                     <animation sheet='teleporterPad' x='-66' y='-30'/>
                     <action name='Teleport' command='changeRoomRemote'>
-                        <args>rooms/labCG.xml,labCG,215,1730</args>
+                        <args>labCG.xml,labCG,215,1730</args>
                         <action command='removeSprite'>
                             <args>rose,lab2</args>
                             <action command='moveSprite'>
@@ -409,7 +410,7 @@
                             </action>
                         </action>
                     </action>
-                </sprite> -->
+                </sprite> 
 
                 <sprite class='teleporter' name='teleporterPadAC' x='1280' y='2995' width='110' height='60'>
                     <animation sheet='teleporterPad' x='-66' y='-30'/>
@@ -606,6 +607,9 @@
                 <animation sheet='tg' x='-80' y='-60' length='4' frameInterval='4'/>
             </sprite>
 
+<sprite class='block' name='block3' x='700' y='2967' height='200' width='200' collidable='true'>
+    <animation sheet='block' x='-100' y='-100'/>
+</sprite>
                
         
 <sprite class='block' name='block4' x='1300' y='400' height='200' width='200' collidable='true'>
