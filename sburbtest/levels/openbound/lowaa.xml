@@ -447,7 +447,7 @@
                 </action>
       </character>
 
-      <sprite class='chestlowaa' name='lowaachest1' x='300' y='490' width='82' height='56' collidable='true'>
+      <sprite class='chestlowaa' name='lowaachest1' x='310' y='490' width='82' height='56' collidable='true'>
         <animation name='closed' sheet='chest3c' x='-48' y='-40'/>
             <animation name='open' sheet='chest3o' x='-48' y='-40' loopNum='0' followUp='opened'/>
             <animation name='opened' sheet='chest3o' x='-48' y='-40' loopNum='0'/>
@@ -459,7 +459,7 @@
                 </action>
             </sprite>  
 
-            <sprite class='chestlowaa' name='lowaachest2' x='850' y='230' width='82' height='56' collidable='true'>
+            <sprite class='chestlowaa' name='lowaachest2' x='865' y='255' width='82' height='56' collidable='true'>
                 <animation name='closed' sheet='chest3c' x='-48' y='-40'/>
             <animation name='open' sheet='chest3o' x='-48' y='-40' loopNum='0' followUp='opened'/>
             <animation name='opened' sheet='chest3o' x='-48' y='-40' loopNum='0'/>
