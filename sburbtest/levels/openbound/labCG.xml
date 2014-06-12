@@ -188,7 +188,7 @@
                 </action>
             </sprite>
             <sprite class='bed' name='bed' x='1720' y='1138' width='144' height='180' collidable='true'>
-                <animation sheet='bed' x='-75' y='-90' />
+                <animation sheet='bed' x='-80' y='-100' />
                 <action command='talk' name='Examine Recuperacoon.'>
                     <args>
                         @! Thank whatever deities this player may believe in you were able to alchemize another one of these. You don’t think you could ever get used to the springy and cloth... thing that those humans call a “bed”. You would miss the sweet caress of slime on your bare skin. Such a comforting feeling... You could go for a nap right now.
