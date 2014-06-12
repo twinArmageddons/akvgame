@@ -65,6 +65,7 @@
 
         <asset name='lance' type='graphic'>objects/items/i_lance.png</asset>
         <asset name='ahab' type='graphic'>objects/items/i_ahab.png</asset>
+        <asset name='lowaasong' type='audio'>audio/music/lowaa.ogg;audio/music/lowaa.mp3</asset>
 
 
   </assets>
@@ -81,6 +82,12 @@
     <room name='lowaa' width='2100' height='1502' walkableMap='lowaa_WM'>
 
         <triggers>
+            <trigger detonate='true'>spriteProperty,char,x&gt;1
+                <action command='playSong'>
+                    <args>lowaasong</args>
+                </action>
+            </trigger>
+
             <trigger>spriteProperty,eridan,x&lt;1100
                     <trigger detonate='true'>spriteProperty,eridan,y&lt;450
                         <action command='removeSprite'>
@@ -214,6 +221,9 @@
                                                         @! Well, that nightmare of a bubble is over.
                                                         @! The place seems quiet. Maybe you could get back to alchemizing stuff. Or not. Maybe you could just wander around. What else is there to do? Awful lot of meteor to explore.
                                                     </args>
+                                                    <action command='playSong'>
+                                                        <args>karkatSong</args>
+                                                    </action>
                                                 </action>
                                             </action>
                                         </action>
@@ -226,10 +236,10 @@
 
         </triggers>
   
-
+<!--
       <character name='karkat' x='980' y='490' sx='-37' sy='-65' sWidth='75' sHeight='75' width='36' height='16' sheet='karkatSheet' state='walkFront' facing='Front'>
       </character>
-
+-->
       <character name='tavros' x='2000' y='50' sx='-37' sy='-65' sWidth='75' sHeight='75' width='36' height='16' sheet='tavrosSheet' state='walkFront' facing='Front'>
       </character>
 
@@ -436,6 +446,31 @@
                     </action>
                 </action>
       </character>
+
+      <sprite class='chestlowaa' name='lowaachest1' x='300' y='490' width='82' height='56' collidable='true'>
+        <animation name='closed' sheet='chest3c' x='-48' y='-40'/>
+            <animation name='open' sheet='chest3o' x='-48' y='-40' loopNum='0' followUp='opened'/>
+            <animation name='opened' sheet='chest3o' x='-48' y='-40' loopNum='0'/>
+                <action command='openChest' name='Open.'>
+                    <args>lowaachest1,ahab,
+                        @! You got AHAB'S CROSSHAIRS!
+            @! You wonder what the point of a laser harpoon gun would even be. That's what this is, right? Harpoons are supposed to stick into something. Lasers don't really stick to things. I mean, they can if they were magic or something. This weapon is probably magic.  
+                    </args>
+                </action>
+            </sprite>  
+
+            <sprite class='chestlowaa' name='lowaachest2' x='850' y='230' width='82' height='56' collidable='true'>
+                <animation name='closed' sheet='chest3c' x='-48' y='-40'/>
+            <animation name='open' sheet='chest3o' x='-48' y='-40' loopNum='0' followUp='opened'/>
+            <animation name='opened' sheet='chest3o' x='-48' y='-40' loopNum='0'/>
+                <action command='openChest' name='Open.'>
+                    <args>lowaachest2,lance,
+                        @! You got a FANCY LANCE!
+                        @! Why the hell would this thing be in the land of wrath and angels? That doesn't make too much sense. Oh well. You chalk it up as another weird dreambubble quirk.
+                    </args>
+                </action>
+            </sprite>  
+
   
 
 

@@ -804,9 +804,9 @@
 
 
   
-
+<!--
       <character name='karkat' x='1000' y='3000' sx='-37' sy='-65' sWidth='75' sHeight='75' width='36' height='16' sheet='karkatSheet' state='walkFront' facing='Front'>
-      </character>
+      </character>-->
 
       <character name='dave' x='425' y='2260' sx='-37' sy='-65' sWidth='75' sHeight='75' width='36' height='16' sheet='daveSheet' state='walkFront' facing='Front'>
       </character>

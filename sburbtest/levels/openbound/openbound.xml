@@ -59,6 +59,9 @@
         <asset name='o_grammo' type='graphic'>objects/items/o_grammo.png</asset>
         <asset name='o_posters' type='graphic'>objects/items/o_posters.png</asset>
 
+        <asset name='drbubble' type='graphic'>interface/drbubble.png</asset>
+        <asset name='gameplan' type='graphic'>INFO/deck.gif</asset>
+
   
 </assets>
 <!--
