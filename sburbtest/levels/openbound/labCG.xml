@@ -179,12 +179,12 @@
             
             <sprite class='teleporter' name='teleporterPad10' x='2620' y='2015' width='110' height='60'>
                 <animation sheet='teleporterPad' x='-66' y='-30'/>
-                <action name='Teleport.' command='changeRoom'><args>labCG,200,475</args>
+                <action name='Teleport.' command='changeRoom'><args>labCG,195,475</args>
                 </action>
             </sprite>
             <sprite class='teleporter' name='teleporterPad11' x='200' y='475' width='110' height='60'>
                 <animation sheet='teleporterPad' x='-66' y='-30'/>
-                <action name='Teleport.' command='changeRoom'><args>labCG,2620,2015</args>
+                <action name='Teleport.' command='changeRoom'><args>labCG,2615,2015</args>
                 </action>
             </sprite>
             <sprite class='bed' name='bed' x='1720' y='1138' width='144' height='180' collidable='true'>

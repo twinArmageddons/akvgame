@@ -25,6 +25,9 @@
       <asset name='chest2c' type='graphic'>objects/chests/chest2.png</asset>
       <asset name='chest3o' type='graphic'>objects/chests/chest3o.png</asset>
       <asset name='chest3c' type='graphic'>objects/chests/chest3.png</asset>
+
+      <asset name='itemGetSound' type='audio'>audio/sfx/ItemGetNoVoice.oga;audio/sfx/ItemGetNoVoice.mp3</asset>
+  <asset name='openSound' type='audio'>audio/sfx/Open1.oga;audio/sfx/Open1.mp3</asset>
 	
   <asset name='dialogBox' type='graphic'>interface/dialogBoxBig.png</asset>
  <asset name='alttextbox_twitter' type='graphic'>interface/alttextbox_twitter.png</asset>

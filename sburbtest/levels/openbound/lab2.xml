@@ -346,7 +346,7 @@
                 <sprite class='teleporter' name='teleporterPad1' x='1259' y='2112' width='110' height='60'>
                     <animation sheet='teleporterPad' x='-66' y='-30'/>
                     <action name='Teleport.' command='changeRoomRemote'>
-                        <args>lab1.xml,lab1,75,3025</args>
+                        <args>lab1.xml,lab1,70,3025</args>
                     </action>
                 </sprite>
                 <!-- top of stairs to 4 way intersection -->
@@ -402,7 +402,7 @@
                 <sprite class='teleporter' name='teleporterPadCG' x='1280' y='2908' width='110' height='60'>
                     <animation sheet='teleporterPad' x='-66' y='-30'/>
                     <action name='Teleport.' command='changeRoomRemote'>
-                        <args>labCG.xml,labCG,215,1730</args>
+                        <args>labCG.xml,labCG,210,1725</args>
                         <action command='removeSprite'>
                             <args>rose,lab2</args>
                             <action command='moveSprite'>

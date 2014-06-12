@@ -465,58 +465,6 @@
 
       </character>
 
-      <character name='terezi' x='869' y='771' sx='-37' sy='-65' sWidth='75' sHeight='75' width='36' height='16' sheet='tereziSheet' state='walkFront' facing='Front'>
-        <action command='talk' name='Talk to Terezi.'>
-                    <args>
-                    @karkat_talk KARKAT: I GUESS YOUR ROLEPLAY PLANS CAN’T REALLY GO THROUGH NOW, HUH?
-                    @terezi_madtalk TEREZI: DR34MBUBBL3S NOTW1THST4ND1NG M4Y 1 R3M1ND YOU BOTH TH4T W3 4R3 ST1LL 1N TH3 M1DDL3 OF 4N 1MPORT4NT 1NT3RV13W!
-                    @terezi_talk TEREZI: NOW CH3RRYB3RRY COULD YOU PL34S3 D3SCR1B3 TH3-
-                    @karkat_talk KARKAT: I’D RATHER NOT.
-                    @terezi_mad TEREZI: >://
-                    @karkat_talk KARKAT: SORRY.
-                    @terezi_mad TEREZI: >://
-                    </args>
-                </action>
-      </character>
-
-      <character name='eridan' x='2000' y='50' sx='-37' sy='-65' sWidth='75' sHeight='75' width='36' height='16' sheet='eridanSheet' state='walkFront' facing='Front'>
-        <action command='talk' name='Talk to Eridan.'>
-                    <args>
-                    @eridan_huh ERIDAN: so kar are you all alivve
-                        @eridan_talk ERIDAN: like actually alivve
-                        @karkat_what KARKAT: YEAH...
-                        @eridan_talk ERIDAN: wwhat a fuckin relief for once
-                        @eridan_madtalk ERIDAN: all the other bubbles i cross through wwent through timelines so different
-                        @eridan_madtalk ERIDAN: and they all don’t remember jack shit about wwhat happened
-                        @karkat_talk KARKAT: IT’S THE SAME WITH THE FEW VERSIONS OF YOU THAT I’VE MET. I DOUBT WE WENT THROUGH ANY OF THE SAME FUCKING STUFF YOU DID.
-                        @eridan_huh ERIDAN: i don’t knoww
-                        @eridan_talk ERIDAN: i guess it just feels more genuine or something
-                        @eridan_huh ERIDAN: you look older though
-                        @karkat_talk KARKAT: WE’VE BEEN OUT HERE FOR OVER HALF A SWEEP.
-                        @karkat_what KARKAT: I THINK THAT’S ABOUT A YEAR AND A FEW MONTHS IN HUMAN TIME.
-                        @eridan_huh ERIDAN: wwhats a human
-                        @karkat_facepalm KARKAT: UGH...
-                        @karkat_yell KARKAT: THESE PALE MOTHERFUCKERS LIKE THE GUY IN THE RED GEAR PAJAMAS.
-                        @eridan_talk ERIDAN: are they game constructs or
-                        @karkat_talk KARKAT: NO, THEY’RE FROM A DIFFERENT UNIVERSE.
-                        @karkat_talk KARKAT: THE ONE WE FUCKING CREATED WHEN WE WON THE GAME.
-                        @karkat_talk KARKAT: BUT THROUGH A COMBINATION OF ME FUCKING UP AND THEM FUCKING UP...
-                        @karkat_eyeroll2 KARKAT: WE NEVER REALLY FULLY WON.
-                        @karkat_talk KARKAT: SO WE’VE BEEN WORKING WITH THEM ON CHEATING THE SYSTEM.
-                        @karkat_talk KARKAT: IT’S A LONG AND INCREDIBLY CONVOLUTED STORY THAT WOULD PROBABLY TAKE OVER 2 SWEEPS, 3 HIATUSES, AND EIGHT THOUSAND PAGES TO TELL ACCURATELY.
-                        @eridan_talk ERIDAN: i think i get it
-                        @karkat_talk KARKAT: GOOD, BECAUSE I DON’T.
-                        @! You start to wonder if Terezi’s noticed Eridan’s arrival. If anything is going to interrupt her RP streak, this will.
-                    </args>
-                    <action command='follow'>
-                        <args>eridan,char</args>
-                        <action command='removeAction'>
-                            <args>eridan,Talk to Eridan.</args>
-                        </action>
-                    </action>
-                </action>
->>>>>>> FETCH_HEAD
-      </character>
 
       <sprite class='chestlowaa' name='lowaachest1' x='310' y='490' width='82' height='56' collidable='true'>
         <animation name='closed' sheet='chest3c' x='-48' y='-40'/>
