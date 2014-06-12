@@ -319,7 +319,9 @@
                 <animation sheet="alch" x="-100" y="-100"/>
                 <action command="talk" name="Examine">
                     <args>
-                        @! Oh look, the all in one alchemizer machine. You've used this thing countless times to duplicate food and technical items and the like. You've even attempted to create new movies to watch by fuzing your obviously not horrible chick flicks together. Some of them turned out alright, though with some confusing plots. &quot;50 lucky First Dates with Chuck&quot; was probably the most overwhelming. You still don't know how you feel about seeing Dane Cook and Adam Sandler in the same twisted story and you think their interractions in this romcom amalgamation monstrosity were a bit too unruly.
+                        @! Oh look, the all in one alchemizer machine. You've used this thing countless times to duplicate food and technical items and the like.
+                        @! You've even attempted to create new movies to watch by fuzing your obviously not horrible chick flicks together.
+                        @! Some of them turned out alright, though with some confusing plots. &quot;50 lucky First Dates with Chuck&quot; was probably the most overwhelming. You still don't know how you feel about seeing Dane Cook and Adam Sandler in the same twisted story and you think their interractions in this romcom amalgamation monstrosity were a bit too unruly.
                         @! You don't really have anything to alchemize right now.
                     </args>
                 </action>

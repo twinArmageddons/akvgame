@@ -332,7 +332,7 @@
                     <trigger detonate='true'>spriteProperty,char,y&gt;2800
                         <action command='talk'>
                             <args>
-                                @! What's that sound? Is that a voice?
+                                @! Wait? What's that sound? You hear something coming from further away in the meteor. It might be better to follow that than to blindly walk into a wall.
                             </args>
                         </action>
                     </trigger>
@@ -943,8 +943,8 @@
                                                                                                                                     @rose_happytalk ROSE: Calm down, I’m joking.
                                                                                                                                     @karkat_yell KARKAT: YOU HAVE AN AWFUL SENSE OF HUMOR.
                                                                                                                                     @rose_talk ROSE: I’m aware.
-                                                                                                                                    <!-- @! Joking aside, Rose leads Karkat into the deep, intricate, and somewhat suggestive world of psychoanalysis. The journey is difficult and arduous with many an obstacle keeping them from continuing, those obstacles mostly being Karkat's insecurities. Through the many hardships, they bond. Hours go by. -->
-                                                                                                                                    @! they fuck, the end. thanks for playing the AKV walkaround. insert coin to continue
+                                                                                                                                    @! Joking aside, Rose leads Karkat into the deep, intricate, and somewhat suggestive world of psychoanalysis. The journey is difficult and arduous with many an obstacle keeping them from continuing, those obstacles mostly being Karkat's insecurities.
+                                                                                                                                    @! Hours go by. It lasted much longer than a normal psychotherapy session would. But maybe it was less of a psychotherapy session and more of a feelings jam... 
                                                                                                                                 </args>
                                                                                                                                 <action command='removeAction'>
                                                                                                                                     <args>rose,Talk to Rose.</args>

@@ -64,6 +64,7 @@
 
   
 </assets>
+
 <!--
 <action name='startGame' command='playSong'>
 	<args>lehrer</args>
@@ -74,13 +75,15 @@
   <args>char,0,20</args>
 </action>
 -->
+
 <hud>
   	<spritebutton name='volumeButton' x='9' y='9' width='54' height='36' sheet='volumeControl'>
   		<action command='toggleVolume' silent='true'></action>
   	</spritebutton>
   	<spritebutton name='helpButton' x='591' y='9' width='54' height='63' sheet='helpControl'>
   		<action command='talk' soft='true'>
-  			<args>@! Use the arrow keys or WASD to move, and space to interact.</args>
+  			<args>@! Use the arrow keys or WASD to move, and space to interact. 
+          @! Visual assets from Homestuck, Pages 4692 and 5221; mspaintadventures.com/artcredits.html. Additional visual assets by Case, Music by Case and EveryoneLovesRobots, original "Karkat's Theme" by Toby Radiation Fox. </args>
   		</action>
   	</spritebutton>
   	<spritebutton name='saveButton' x='595' y='390' sheet='saveControl'>
