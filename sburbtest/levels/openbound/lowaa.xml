@@ -447,9 +447,7 @@
                         </action>
                     </action>
                 </action>
-<<<<<<< HEAD
-=======
-                </action>
+
       </character>
 
       <character name='terezi' x='869' y='771' sx='-37' sy='-65' sWidth='75' sHeight='75' width='36' height='16' sheet='tereziSheet' state='walkFront' facing='Front'>
