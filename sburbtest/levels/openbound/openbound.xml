@@ -86,7 +86,7 @@
   	<spritebutton name='helpButton' x='591' y='9' width='54' height='63' sheet='helpControl'>
   		<action command='talk' soft='true'>
   			<args>@! Use the arrow keys or WASD to move, and space to interact. 
-          @! Walkaround development by Case and Halfedge. Visual assets from Homestuck, Pages 4692 and 5221; mspaintadventures.com/artcredits.html. Additional visual assets by Case. Music by Case and EveryoneLovesRobots, original "Karkat's Theme" by Toby Radiation Fox. </args>
+          @! Walkaround development by Case and Halfedge. Visual assets from Homestuck, Pages 4692 and 5221; mspaintadventures.com/artcredits.html. Additional visual assets by Case. Music by Case and EveryoneLovesRobots, original "Karkat's Theme" by Toby Radiation Fox. Dialog by Case, with help from Tooch, Afina, and Fivetail.</args>
   		</action>
   	</spritebutton>
   	<spritebutton name='saveButton' x='538' y='9' sheet='saveControl'>
