@@ -89,7 +89,7 @@
           @! Visual assets from Homestuck, Pages 4692 and 5221; mspaintadventures.com/artcredits.html. Additional visual assets by Case, Music by Case and EveryoneLovesRobots, original "Karkat's Theme" by Toby Radiation Fox. </args>
   		</action>
   	</spritebutton>
-  	<spritebutton name='saveButton' x='595' y='390' sheet='saveControl'>
+  	<spritebutton name='saveButton' x='538' y='9' sheet='saveControl'>
   		<action command='saveOrLoad' soft='true'>
   			<args></args>
   		</action>
