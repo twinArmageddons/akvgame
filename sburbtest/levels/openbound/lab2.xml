@@ -337,6 +337,12 @@
                         </action>
                     </trigger>
                 </trigger>
+
+
+
+             
+
+
             </triggers>
 
 
@@ -610,6 +616,10 @@
 <sprite class='block' name='block3' x='700' y='2967' height='200' width='200' collidable='true'>
     <animation sheet='block' x='-100' y='-100'/>
 </sprite>
+
+<sprite class='block' name='timer' x='100' y='3200' height='200' width='200'>
+    <animation sheet='block' x='-100' y='-100'/>
+</sprite>
                
         
 <sprite class='block' name='block4' x='1300' y='400' height='200' width='200' collidable='true'>
@@ -807,11 +817,11 @@
             </sprite>
 
 
-  <!--
+  
 
       <character name='karkat' x='1000' y='3000' sx='-37' sy='-65' sWidth='75' sHeight='75' width='36' height='16' sheet='karkatSheet' state='walkFront' facing='Front'>
       </character>
--->
+
       <character name='davelab2' x='425' y='2260' sx='-37' sy='-65' sWidth='75' sHeight='75' width='36' height='16' sheet='daveSheet' state='walkFront' facing='Front'>
       </character>
       <character name='rose' x='422' y='327' sx='-37' sy='-65' sWidth='75' sHeight='75' width='36' height='16' sheet='roseSheet' state='walkFront' facing='Front'>
@@ -933,9 +943,7 @@
                                                                                                                                     <args>char,500,230</args>
                                                                                                                                     <action command='fadeOut'>
 
-                                                                                                                                    <action command='moveSprite'>
-                                                                                                                                            <args>kanaya,640,375</args>
-                                                                                                                                            <action command='fadeOut'>
+                                                                                                                                    
                                                                                                                                             <action command='removeSprite'>
                                                                                                                                                 <args>block1,lab1</args>
                                                                                                                                                 <action command='fadeOut'>
@@ -951,10 +959,48 @@
                                                                                                                                                             <action command='walk'>
                                                                                                                                                                 <args>char,Down</args>
                                                                                                                                                                 <action command='fadeOut'>
+                                                                                                                                                                    <action command='deltaSprite'>
+                                                                                                                                                                        <args>timer,0,-5</args>
+                                                                                                                                                                        <action command='deltaSprite'>
+                                                                                                                                                                        <args>timer,0,-5</args>
+                                                                                                                                                                        <action command='deltaSprite'>
+                                                                                                                                                                        <args>timer,0,-5</args>
+                                                                                                                                                                        <action command='deltaSprite'>
+                                                                                                                                                                        <args>timer,0,-5</args>
+                                                                                                                                                                        <action command='deltaSprite'>
+                                                                                                                                                                        <args>timer,0,-5</args>
+                                                                                                                                                                        <action command='deltaSprite'>
+                                                                                                                                                                        <args>timer,0,-5</args>
+                                                                                                                                                                        <action command='deltaSprite'>
+                                                                                                                                                                        <args>timer,0,-5</args>
+                                                                                                                                                                        <action command='deltaSprite'>
+                                                                                                                                                                        <args>timer,0,-5</args>
+                                                                                                                                                                        <action command='deltaSprite'>
+                                                                                                                                                                        <args>timer,0,-5</args>
+                                                                                                                                                                        <action command='deltaSprite'>
+                                                                                                                                                                        <args>timer,0,-5</args>
+                                                                                                                                                                        <action command='deltaSprite'>
+                                                                                                                                                                        <args>timer,0,-5</args>
+                                                                                                                                                                        <action command='deltaSprite'>
+                                                                                                                                                                        <args>timer,0,-5</args>
+                                                                                                                                                                        <action command='deltaSprite'>
+                                                                                                                                                                        <args>timer,0,-5</args>
+                                                                                                                                                                        <action command='deltaSprite'>
+                                                                                                                                                                        <args>timer,0,-5</args>
+                                                                                                                                                                        <action command='deltaSprite'>
+                                                                                                                                                                        <args>timer,0,-5</args>
+                                                                                                                                                                        <action command='deltaSprite'>
+                                                                                                                                                                        <args>timer,0,-5</args>
+                                                                                                                                                                        <action command='deltaSprite'>
+                                                                                                                                                                        <args>timer,0,-5</args>
+                                                                                                                                                                        <action command='deltaSprite'>
+                                                                                                                                                                        <args>timer,0,-5</args>
+                                                                                                                                                                        <action command='deltaSprite'>
+                                                                                                                                                                        <args>timer,0,-5</args>
+                                                                                                                                                                        <action command='moveSprite'>
+                                                                                                                                                                            <args>timer,100,3200</args>
                                                                                                                                                         
-                                                                                                                                                            <action command='removeSprite'>
-                                                                                                                                                                <args>rose,lab2</args>
-                                                                                                                                                                <action command='fadeOut'>
+                                                                                                                                                            
                                                                                                                                     
 
                                                                                                                                 <action command='talk'>
@@ -982,7 +1028,55 @@
                                                                                                                                     @kanaya_talk KANAYA: I Apologize Am I Intruding On Anything
 
 
-                                                                                                                                    @rose_happytalk ROSE: Not really, I believe we’re just wrapping up.
+                                                                                                                                    
+
+                                                                                                                                </args>
+                                                                                                                                <action command='moveSprite'>
+                                                                                                                                            <args>kanaya,640,375</args>
+                                                                                                                                                    <action command='deltaSprite'>
+                                                                                                                                                        <args>timer,0,-5</args>
+                                                                                                                                                        <action command='deltaSprite'>
+                                                                                                                                                        <args>timer,0,-5</args>
+                                                                                                                                                        <action command='deltaSprite'>
+                                                                                                                                                        <args>timer,0,-5</args>
+                                                                                                                                                        <action command='deltaSprite'>
+                                                                                                                                                        <args>timer,0,-5</args>
+                                                                                                                                                        <action command='deltaSprite'>
+                                                                                                                                                        <args>timer,0,-5</args>
+                                                                                                                                                        <action command='deltaSprite'>
+                                                                                                                                                        <args>timer,0,-5</args>
+                                                                                                                                                        <action command='deltaSprite'>
+                                                                                                                                                        <args>timer,0,-5</args>
+                                                                                                                                                        <action command='deltaSprite'>
+                                                                                                                                                        <args>timer,0,-5</args>
+                                                                                                                                                        <action command='deltaSprite'>
+                                                                                                                                                        <args>timer,0,-5</args>
+                                                                                                                                                        <action command='deltaSprite'>
+                                                                                                                                                        <args>timer,0,-5</args>
+                                                                                                                                                        <action command='deltaSprite'>
+                                                                                                                                                        <args>timer,0,-5</args>
+                                                                                                                                                        <action command='deltaSprite'>
+                                                                                                                                                        <args>timer,0,-5</args>
+                                                                                                                                                        <action command='deltaSprite'>
+                                                                                                                                                        <args>timer,0,-5</args>
+                                                                                                                                                        <action command='deltaSprite'>
+                                                                                                                                                        <args>timer,0,-5</args>
+                                                                                                                                                        <action command='deltaSprite'>
+                                                                                                                                                        <args>timer,0,-5</args>
+                                                                                                                                                        <action command='deltaSprite'>
+                                                                                                                                                        <args>timer,0,-5</args>
+                                                                                                                                                        <action command='deltaSprite'>
+                                                                                                                                                        <args>timer,0,-5</args>
+                                                                                                                                                        <action command='deltaSprite'>
+                                                                                                                                                        <args>timer,0,-5</args>
+                                                                                                                                                        <action command='deltaSprite'>
+                                                                                                                                                        <args>timer,0,-5</args>
+                                                                                                                                                        <action command='moveSprite'>
+                                                                                                                                                            <args>timer,100,3200</args>
+                                                                                                                                                        
+                                                                                                                                        <action command='talk'>
+                                                                                                                                            <args>
+                                                                                                                                                @rose_happytalk ROSE: Not really, I believe we’re just wrapping up.
                                                                                                                                     @karkat_eyeroll2 KARKAT: (thank god...)
                                                                                                                                     @kanaya_talk KANAYA: In That Case There Is Something Dave Wanted You For
                                                                                                                                     @rose_annoyedtalk ROSE: Whatever could that be?
@@ -991,13 +1085,37 @@
                                                                                                                                     @kanaya_talk KANAYA: He Seemed Very Distressed I Dont Think This Sarcasm Is Very Appropriate For This Situation
                                                                                                                                     @rose_concern ROSE: Distressed?
                                                                                                                                     @rose_talk ROSE: Alright, I’ll go and check out this new and frightening obscurity. Let me know if anything happens.
-
                                                                                                                                 </args>
+                                                                                                                                <action command='removeSprite'>
+                                                                                                                                                                <args>rose,lab2</args>
+                                                                                                                            </action>
+                                                                                                                        </action>
+                                                                                                                    </action>
+
+
                                                                                                                                 
-                                                                                                                                
-                                                                                                                                        
+                                                                                                                                </action>
                                                                                                                                                     </action>
                                                                                                                                                 </action>
+                                                                                                                                            </action>
+                                                                                                                                        </action>
+                                                                                                                                    </action>
+                                                                                                                                </action>
+                                                                                                                                </action>
+                                                                                                                                </action>
+                                                                                                                                </action></action></action></action></action></action></action>
+                                                                                                                                </action>
+                                                                                                                                </action>
+                                                                                                                                </action>
+                                                                                                                                </action></action>
+                                                                                                                                </action>
+                                                                                                                                </action>
+                                                                                                                                </action></action></action></action></action></action></action>
+                                                                                                                                </action>
+                                                                                                                                </action>
+                                                                                                                                </action>
+                                                                                                                                </action></action></action></action></action>
+                                                                                                                                        
                                                                                                                                             </action>
                                                                                                                                                 </action>
                                                                                                                                             </action>

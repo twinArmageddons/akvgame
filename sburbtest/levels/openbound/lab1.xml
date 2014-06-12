@@ -833,6 +833,9 @@
                     </args>
                     <action command='removeSprite'>
                         <args>block3,lab2</args>
+                        <action command='changeRoom'>
+                            <args>lab1,300,1500</args>
+                        </action>
                     </action>
 
                 </action>
