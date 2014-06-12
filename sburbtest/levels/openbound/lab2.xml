@@ -942,6 +942,9 @@
                                                                                                                                 <action command='moveSprite'>
                                                                                                                                     <args>char,500,230</args>
                                                                                                                                     <action command='fadeOut'>
+                                                                                                                                        <action command='moveSprite'>
+                                                                                                                                            <args>rose,450,230</args>
+                                                                                                                                            <action command='fadeOut'>
 
                                                                                                                                     
                                                                                                                                             <action command='removeSprite'>
@@ -1127,7 +1130,7 @@
                                                                                                                                     </action>
                                                                                                                                 </action>
                                                                                                                             </action>
-                                                                                                                                    </action>
+                                                                                                                                    </action></action></action>
                                                                                                                                 </action>
                                                                                                                             </action>
                                                                                                                         </action>
