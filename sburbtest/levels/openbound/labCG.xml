@@ -204,6 +204,8 @@
                                     <args>block1,lab1</args>
                                     <action command='removeSprite'>
                                         <args>block2,lab1</args>
+                                        <action command='removeSprite'>
+                                            <args>topblock,lab1</args>
                                         <action command='fadeOut'>
                                             <action command='talk'>
                                                 <args>
@@ -215,6 +217,7 @@
                                                 <action command='setGameState'>
                                                     <args>sleep,true</args>
                                                 </action>
+                                            </action>
                                             </action>
                                         </action>
                                     </action>

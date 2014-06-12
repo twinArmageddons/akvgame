@@ -942,6 +942,9 @@
                                                                                                                                                 <action command='removeSprite'>
                                                                                                                                                     <args>block2,lab1</args>
                                                                                                                                                     <action command='fadeOut'>
+                                                                                                                                                        <action command='removeSprite'>
+                                                                                                                                                            <args>topblock,lab1</args>
+                                                                                                                                                            <action command='fadeOut'>
                                                                                                                                                     <action command='setGameState'>
                                                                                                                                                         <args>sleep,true</args>
                                                                                                                                                         <action command='fadeOut'>
@@ -998,6 +1001,8 @@
                                                                                                                                                 </action>
                                                                                                                                             </action>
                                                                                                                                                 </action>
+                                                                                                                                            </action>
+                                                                                                                                        </action>
                                                                                                                                             </action>
                                                                                                                                         </action>
                                                                                                                                     </action>

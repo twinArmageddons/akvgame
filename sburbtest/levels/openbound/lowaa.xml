@@ -82,6 +82,21 @@
     <room name='lowaa' width='2100' height='1502' walkableMap='lowaa_WM'>
 
         <triggers>
+
+            <trigger>spriteProperty,char,x&lt;780
+                    <trigger>spriteProperty,char,y&gt;1090
+                        
+                            <action command='goBack'>
+                                <args>char</args>
+                                <action command='talk'>
+                                    <args>
+                                        @! You're not quite ready to leave the bubble yet.
+                                    </args>
+                                </action>
+                            </action>
+                    </trigger>
+                </trigger>
+
             <trigger detonate='true'>spriteProperty,char,x&gt;1
                 <action command='playSong'>
                     <args>lowaasong</args>
