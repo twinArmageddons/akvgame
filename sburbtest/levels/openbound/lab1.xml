@@ -769,7 +769,7 @@
 
             <sprite collidable="false" depthing="2" height="76" name="caseSheet" width="76" x="2680" y="244">
                 <animation frameInterval="4" length="4" sheet="caseSheet" x="-35" y="-60"/>
-                <action command="talk" name="Ask Karkat Voice.">
+                <action command="talk" name="AskKarkatVoice.">
                     <args>
                         @karkat_talk KARKAT: WHAT THE FUCK ARE YOU SUPPOSED TO BE.
                         @voice_talk VOICE: YOUR VOICE.
